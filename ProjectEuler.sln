@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Summation", "Summation", "{B2DC91F7-D3B2-425E-A9CF-45F66F5DFE43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplesOf3And5", "MultiplesOf3And5\MultiplesOf3And5.csproj", "{FC22A3D9-35A5-4C86-83B7-BC46D08513D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fibonacci", "Fibonacci", "{006C7A43-B0CE-4894-898F-A8BD36C446B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenFibonacciNumber", "EvenFibonacciNumber\EvenFibonacciNumber.csproj", "{5A2562A6-CD8B-429D-8742-9DD82A343FBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prime", "Prime", "{58A4EFD2-EAC0-49CF-ABB2-3F135E5A6632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestPrimeFactor", "LargestPrimeFactor\LargestPrimeFactor.csproj", "{09B042FC-D2EE-4BE8-BEA1-6D5864C5341D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC22A3D9-35A5-4C86-83B7-BC46D08513D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC22A3D9-35A5-4C86-83B7-BC46D08513D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC22A3D9-35A5-4C86-83B7-BC46D08513D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC22A3D9-35A5-4C86-83B7-BC46D08513D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2562A6-CD8B-429D-8742-9DD82A343FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2562A6-CD8B-429D-8742-9DD82A343FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2562A6-CD8B-429D-8742-9DD82A343FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2562A6-CD8B-429D-8742-9DD82A343FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B042FC-D2EE-4BE8-BEA1-6D5864C5341D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B042FC-D2EE-4BE8-BEA1-6D5864C5341D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B042FC-D2EE-4BE8-BEA1-6D5864C5341D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B042FC-D2EE-4BE8-BEA1-6D5864C5341D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC22A3D9-35A5-4C86-83B7-BC46D08513D6} = {B2DC91F7-D3B2-425E-A9CF-45F66F5DFE43}
+		{5A2562A6-CD8B-429D-8742-9DD82A343FBC} = {006C7A43-B0CE-4894-898F-A8BD36C446B0}
+		{09B042FC-D2EE-4BE8-BEA1-6D5864C5341D} = {58A4EFD2-EAC0-49CF-ABB2-3F135E5A6632}
+	EndGlobalSection
+EndGlobal
